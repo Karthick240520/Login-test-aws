@@ -7,6 +7,7 @@ HTML page → API Gateway (POST /login) → Lambda → DynamoDB
 
 ## AWS services used
 - API Gateway: exposes the /login REST endpoint
+- S3 : for store built file
 - Lambda: login validation logic
 - DynamoDB: stores user records
 - IAM: permissions for Lambda to read DynamoDB
